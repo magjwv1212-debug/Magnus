@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magnus</title>
+    <link rel="stylesheet" href="box.css">
+    <style>
+        
+        header{
+            background-color: rgb(255, 255, 255);
+            position: fixed;
+             top: 0;
+             left: 0;
+              width: 100%;
+              border-radius: 100px;
+              margin-top: 1px;
+}
+        *{ 
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: orange;
+            margin: 0;
+        }
+        h1{
+            font-size: 80px;
+            font-weight: bolder;
+            text-align: center;
+            border-bottom: 2px black solid;
+        }
+        .container{
+            display: flex;
+            justify-content: center; 
+            justify-content: space-evenly;
+           
+        }
+        .boks{
+            font-size: 20px;
+           
+
+
+        }
+        .intro2{
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 5px;
+
+
+        }
+        .boks2{
+            background-color: rgb(232, 170, 12);
+            height: 700px;
+            gap: 5px;
+            margin-top: 60px;
+            border-radius: 50px;
+            border-bottom: 20px white solid;
+            border-top: 20px solid white;
+        
+
+
+       
+        }
+        .boks1{
+            border: 2px black solid;
+            background-color: rgb(111, 83, 83);
+
+        }
+        .stor{
+            grid-column: span 2;
+            grid-row: span 2;
+
+        }
+        a{
+            text-decoration: none;
+            cursor: grab;
+            color: rgb(42, 99, 165);
+            
+            
+            
+        }
+        img{
+            width: 100%;
+            border-radius: 10px;
+            height: 100%;
+            object-fit: cover;
+            margin: 10px;
+            
+           
+            
+        }
+        .bilde{
+            background-image: url(5D851B4C-50CC-4EB0-A26E-7EE033BE43C2_1_102_o.jpeg);
+            background-size: cover;
+            height: 700px;
+            width: 2fr;
+            border-left: 4px white solid;
+            border-right: 4px white solid;
+        }
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(3,475px);
+            grid-auto-rows: 300px;
+            gap: 10px;
+            margin-top: 70px;
+            background-color: rgb(67, 41, 3);
+            border-radius: 50px;
+            border: 10px white solid;
+            
+            
+            
+            
+            
+           
+        }
+        
+        .stor{
+            grid-column: span 2;
+
+        }
+        .stor2{
+            grid-row: span 2;
+           
+
+        }
+
+    </style>
+    
+</head>
+<body >
+    <header>
+        <div class="container">
+
+            <div class="boks"> <a href="Magnus.html"> Om meg</a></div>
+            <div class="boks"> <a href="sport.html">Sport</a></div>
+            <div class="boks"> <a href="fritid.html"> Fritid</a></div>
+            <div class="boks"> <a href="skole.html">Skole</a></div>
+            <div class="boks"><a href="steder.html"> Steder</a></div>
+            
+        </div>
+</header>
+<main>
+<section>
+    <h1> Magnus</h1>
+</section>
+<section>
+    <div class="intro2">
+
+        <div class="boks2"> Om meg</div>
+        <div class="boks2 bilde"> </div>
+        <div class="boks2"></div>
+        
+    </div>
+</section>
+<section>
+    <h1>Bildegalleri</h1>
+
+<div class="gallery">
+
+    <div class="galleri stor2"><img src="5D851B4C-50CC-4EB0-A26E-7EE033BE43C2_1_102_o.jpeg" alt=""></div>
+    <div class="galleri"><img src="5D851B4C-50CC-4EB0-A26E-7EE033BE43C2_1_102_o.jpeg" alt=""></div>
+    <div class="galleri"><img src="5D851B4C-50CC-4EB0-A26E-7EE033BE43C2_1_102_o.jpeg" alt=""></div>
+    <div class="galleri stor"><img src="5D851B4C-50CC-4EB0-A26E-7EE033BE43C2_1_102_o.jpeg" alt=""></div>
+    <div class="galleri"><img src="5D851B4C-50CC-4EB0-A26E-7EE033BE43C2_1_102_o.jpeg" alt=""></div>
+    <div class="galleri stor2"><img src="5D851B4C-50CC-4EB0-A26E-7EE033BE43C2_1_102_o.jpeg" alt=""></div>
+    <div class="galleri stor2"><img src="5D851B4C-50CC-4EB0-A26E-7EE033BE43C2_1_102_o.jpeg" alt=""></div>
+    <div class="galleri stor2"><img src="5D851B4C-50CC-4EB0-A26E-7EE033BE43C2_1_102_o.jpeg" alt=""></div>
+    <div class="galleri stor"><img src="5D851B4C-50CC-4EB0-A26E-7EE033BE43C2_1_102_o.jpeg" alt=""></div>
+    <div class="galleri stor2"><img src="5D851B4C-50CC-4EB0-A26E-7EE033BE43C2_1_102_o.jpeg" alt=""></div>
+</div>
+</section>
+<section>
+
+</section>
+
+
+</main>
+    
+</body>
+</html>
