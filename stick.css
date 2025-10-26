@@ -1,23 +1,26 @@
-header{
-            background-color: rgb(255, 255, 255);
-            position: fixed;
-             top: 0;
-             left: 0;
-              width: 100%;
-              border-radius: 100px;
-              margin-top: 1px;
+header {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 100px;
+    margin-top: 1px;
 }
-.container{
-            display: flex;
-            justify-content: center; 
-            justify-content: space-evenly;
-           
-        }
-         a{
-            text-decoration: none;
-            cursor: grab;
-            color: rgb(42, 99, 165);
-            }
-        .boks{
-            font-size: 20px;
-        }
+
+.container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+a {
+    text-decoration: none;
+    cursor: grab;
+    color: rgb(42, 99, 165);
+}
+
+.boks {
+    font-size: 20px;
+}
