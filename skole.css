@@ -1,0 +1,125 @@
+body {
+            background-color: rgb(229, 231, 216);
+            margin: 0;
+            padding: 0;
+        }
+        
+
+        h1 {
+            font-size: 100px;
+            color: white;
+            text-align: center;
+            border-bottom: 10px green solid;
+            
+        }
+        h2{
+            font-size: 80px;
+            text-align: center;
+            color: rgb(216, 201, 201);
+        }
+        table{
+            border-collapse: collapse;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+        td{
+            border: 2px black solid;
+            margin: 0;
+            
+            
+        }
+        .overskrift{
+            height: 8px;
+            background-color: antiquewhite;
+           
+            font-weight: bold;
+            font-size: 50px;
+            height:85px;
+        }
+        .mid{
+            height: 4px;
+            background-color: white;
+            font-size: 22px;
+            text-align: center;
+            height: 60px;
+            
+
+
+        }
+        .pause{
+            height: 40px;
+            background-color: white;
+        }
+        
+     
+    footer {
+  width: 100%;
+  background-color: rgb(10, 20, 114);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin: 0;
+  margin-top: 75px;
+  }
+
+  .FAG{
+    display: flex;
+    border: green solid 10px;
+    background-color: white;
+    border-radius: 100px;
+   justify-content: center;
+    width: 65%;
+    margin-top: 100px;
+    height: 1400px;
+    text-align: center;
+    margin: 0 auto;
+}
+.Norsk{
+    background-color: red;
+}
+.IT{
+    background-color: #90EE90;
+}
+.Rettslære{
+    background-color: #FFA500;
+}
+.Matte{
+    background-color: lightblue;
+}
+.Gym{
+    background-color: blue;
+}
+.Historie{
+    background-color: orange;
+}
+.Klasse{
+    background-color: aquamarine;
+    height: 4px;
+}
+.Bio{
+    background-color: green;
+}
+.Tysk{
+    background-color: pink;
+}
+h5{
+    font-size: 70px;
+    text-align: center;
+
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+h4{
+    font-size: 60px;
+    color: green;
+    text-align: center;
+    border-bottom: green 2px solid;
+}
+h3{
+    font-size: 30px;
+    color: green;
+    text-align: center;
+
+}
